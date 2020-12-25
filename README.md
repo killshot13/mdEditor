@@ -1,7 +1,9 @@
 # mdEditor
+
 ---
 
 ## An amazing markdown editor
+
 ---
 
 ### Requirements
@@ -26,4 +28,4 @@ _Based somewhat loosely on [the configuration](https://thisdavej.com/build-an-am
 
 ### Views
 
-<img src="https://github.com/killshot13/mdEditor/blob/main/mdEditor.jpg" />
+![Real-life view of the editor]("https://github.com/killshot13/mdEditor/blob/main/mdEditor.jpg")
