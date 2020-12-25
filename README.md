@@ -1,9 +1,8 @@
 # mdEditor
 
-## An amazing markdown editor!
+## An amazing markdown editor
 
-
-#### Requirements
+### Requirements
 
 [Visual Studio Code](https://code.visualstudio.com/Download)
 
@@ -15,7 +14,6 @@
 
 [mdEditor](https://github.com/killshot13/mdEditor.git) Clone current repository
 
-#### References 
+#### References
 
 _Based somewhat loosely on [the configuration](https://thisdavej.com/build-an-amazing-markdown-editor-using-visual-studio-code-and-pandoc) developed by [Dave Johnson](https://thisdavej.com/)._
-<br />
