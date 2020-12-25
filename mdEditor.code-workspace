@@ -1,0 +1,21 @@
+{
+  "folders": [
+    {
+      "path": "..\\mdEditor"
+    }
+  ],
+  "settings": {
+    "editor.insertSpaces": false,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80,
+    "editor.quickSuggestions": false,
+    "pandoc.htmlOptString": "-s -f gfm -t html5 --css=css/style.css",
+    "markdownlint.config": {
+      "default": true,
+      "MD007": false,
+      "no-hard-tabs": false,
+      "line-length": false
+    },
+    "editor.codeActionsOnSave": ["source.organizeImports", "source.fixAll"]
+  }
+}
