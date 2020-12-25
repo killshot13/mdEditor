@@ -1,6 +1,8 @@
 # mdEditor
+---
 
 ## An amazing markdown editor
+---
 
 ### Requirements
 
@@ -14,9 +16,13 @@
 
 [mdEditor](https://github.com/killshot13/mdEditor.git) Clone current repository
 
+---
+
 ### References
 
 _Based somewhat loosely on [the configuration](https://thisdavej.com/build-an-amazing-markdown-editor-using-visual-studio-code-and-pandoc) developed by [Dave Johnson](https://thisdavej.com/)._
+
+---
 
 ### Views
 
