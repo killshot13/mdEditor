@@ -1,24 +1,61 @@
 {
-  "folders": [
-    {
-      "path": "."
-    }
-  ],
-  "settings": {
-    "pandoc.htmlOptString": "-s -f gfm -t html5 --css=css/style.css",
-    "editor.semanticTokenColorCustomizations": {},
-    "[markdown]": {
-      "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
-      "editor.formatOnSave": true,
-      "editor.codeActionsOnSave": {
-        "source.organizeImports": true,
-        "source.fixAll": true
-      },
-      "editor.wordWrap": "on",
-      "editor.renderWhitespace": "all",
-      "editor.insertSpaces": false,
-      "editor.wrappingStrategy": "simple",
-      "editor.quickSuggestions": false,
-    },
-  }
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"pandoc.htmlOptString": "-s -f gfm -t html5 --css=/styles/style.css",
+		"editor.semanticTokenColorCustomizations": {},
+		"[markdown]": {
+			"editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+			"editor.formatOnSave": true,
+			"editor.codeActionsOnSave": {
+				"source.organizeImports": true,
+				"source.fixAll": true
+			},
+			"editor.wordWrap": "on",
+			"editor.renderWhitespace": "all",
+			"editor.insertSpaces": false,
+			"editor.wrappingStrategy": "simple",
+			"editor.quickSuggestions": false
+		}
+	}
 }
+
+/**
+		"logViewer.watch": [
+			{
+				"title": "initexmf",
+				"pattern": "/mnt/c/ProgramData/MiKTeX/miktex/log/initexmf_admin.log"
+			},
+			{
+				"title": "miktex-console",
+				"pattern": "/mnt/c/ProgramData/MiKTeX/miktex/log/miktex-console_admin.log"
+			},
+			{
+				"title": "miktex-fc-cache",
+				"pattern": "/mnt/c/ProgramData/MiKTeX/miktex/log/miktex-fc-cache_admin.log"
+			},
+			{
+				"title": "miktex-maketfm",
+				"pattern": "/mnt/c/ProgramData/MiKTeX/miktex/log/miktex-maketfm_admin.log"
+			},
+			{
+				"title": "miktex-mf",
+				"pattern": "/mnt/c/ProgramData/MiKTeX/miktex/log/miktex-mf_admin.log"
+			},
+			{
+				"title": "miktex-pdftex",
+				"pattern": "/mnt/c/ProgramData/MiKTeX/miktex/log/miktex-pdftex_admin.log"
+			},
+			{
+				"title": "mkfntmap",
+				"pattern": "/mnt/c/ProgramData/MiKTeX/miktex/log/mkfntmap_admin.log"
+			},
+			{
+				"title": "mpmcli",
+				"pattern": "/mnt/c/ProgramData/MiKTeX/miktex/log/mpmcli_admin.log"
+			}
+		],
+		*/

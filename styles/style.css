@@ -376,7 +376,6 @@ hr {
   border: 0px;
   border-top: 1px solid #bbb;
   width: 100%;
-  height: 0px
 }
 
 hr+h1 {
@@ -570,7 +569,6 @@ figure {
   margin: 1.3em 0 1.3em 0;
   text-align: center;
   padding: 0px;
-  width: 100%;
   background-color: #ddd;
   border: 1px solid #bbb;
   -webkit-border-radius: 8px;
