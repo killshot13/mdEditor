@@ -12,11 +12,14 @@
 - [Usage](#usage)
 - [References](#references)
 
+<a href="https://github.com/killshot13/mdEditor"><img align="right" width="605" height="395" src="https://github.com/killshot13/mdEditor/blob/main/images/markdown-to-html.jpg" alt="HTML file created with mdEditor"></a>
+<p align="center">
+<a href="https://github.com/killshot13/mdEditor"><img width="605" height="395" src="https://github.com/killshot13/mdEditor/blob/main/images/markdown-to-docx.jpg" alt="DOCX file created with mdEditor"></a>
+</p>
+
 ## About <a name = "about"></a>
 
 ### Features
-
-<a href="https://github.com/killshot13/mdEditor"><img align="right" width="605" height="395" src="https://github.com/killshot13/mdEditor/blob/main/images/markdown-to-html.jpg" alt="HTML file created with mdEditor"></a>
 
 - Auto-checks for errors/problems and generates a detailed output for any broken rules.
 
@@ -107,8 +110,6 @@ Workspace setup is now complete and mdEditor is ready to use.
 Happy markdown'ing! :)
 
 ## References <a name = "references"></a>
-
-<a href="https://github.com/killshot13/mdEditor"><img align="left" width="605" height="395" src="https://github.com/killshot13/mdEditor/blob/main/images/markdown-to-docx.jpg" alt="DOCX file created with mdEditor"></a>
 
 _Credit is owed to [Dave Johnson](https://twitter.com/thisDaveJ) for inspiring me to create mdEditor after reading [this guide](https://thisdavej.com/build-an-amazing-markdown-editor-using-visual-studio-code-and-pandoc/)  he authored._
 
