@@ -42,7 +42,7 @@ mdEditor is an adaptation derived from the brainchild of [Dave Johnson](https://
 ---
 
 <p align="center">
-    <a href="https://github.com/killshot13/mdEditor"><img width="1080" height="607.5" src="https://github.com/killshot13/mdEditor/blob/main/images/mdEditor.gif" alt="GIF file showing how mdEditor works"></a>
+    <a href="https://github.com/killshot13/mdEditor"><img width="780" height="520" src="https://github.com/killshot13/mdEditor/blob/main/images/mdEditor.gif" alt="GIF file showing how mdEditor works"></a>
 </p>
 
 ## Prerequisites <a name = "prerequisites"></a>
