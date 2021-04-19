@@ -1,10 +1,8 @@
 # mdEditor
 
->**v3.0.0**
-
-## Awesome Markdown Editor/Workspace for VS Code
-
----
+> **Awesome Markdown Editor/Workspace for VS Code**
+>
+> **v3.0.0**
 
 ## Table of Contents
 
@@ -14,27 +12,23 @@
 - [Usage](#usage)
 - [References](#references)
 
----
+## About <a name = "about"></a>
 
-### About <a name = "about"></a>
+### Features
 
-#### Features
+<a href="https://github.com/killshot13/mdEditor"><img align="right" width="605" height="395" src="https://github.com/killshot13/mdEditor/blob/main/images/markdown-to-html.jpg" alt="HTML file created with mdEditor"></a>
 
-- Auto-checks for errors/problems and generates a detailed output w/ references to any broken rules.
+- Auto-checks for errors/problems and generates a detailed output for any broken rules.
 
-- Lints and runs autofix on save, offering auto correction/reformatting of most common errors.
+- Lints and runs autofix on save which will correct/reformat most common errors.
 
 - Supports the creation of `.pdf`, `.docx`, and `.html` files, which can be exported and viewed with MS Word, Adobe Acrobat, or the browser.
-
-
-<a href="https://github.com/killshot13/mdEditor"><img align="left" width="480" height="275" src="https://github.com/killshot13/mdEditor/blob/main/images/markdown-to-html.jpg" alt="HTML file created with mdEditor" ></a>
-
 
 - Enforces syntax for any markdown flavor with a simple on/off option for every rule.
 
 - All `html` files are linked to a basic stylesheet during creation so they look natural if viewed with the browser.
 
-#### Details
+### Details
 
 mdEditor provides the configuration guidelines and creates the structure for an awesome VSCode Markdown editor. By creating a reusable `code-workspace`, the main portion of your IDE environment is protected from rule conflicts.
 
@@ -44,7 +38,11 @@ mdEditor is an adaptation derived from the brainchild of [Dave Johnson](https://
 
 ---
 
-### Prerequisites <a name = "prerequisites"></a>
+<p align="center">
+    <a href="https://github.com/killshot13/mdEditor"><img width="1080" height="607.5" src="https://github.com/killshot13/mdEditor/blob/main/images/mdEditor.gif" alt="GIF file showing how mdEditor works"></a>
+</p>
+
+## Prerequisites <a name = "prerequisites"></a>
 
 [Visual Studio Code](https://code.visualstudio.com/Download)
 This should be self-explanantory.
@@ -52,9 +50,7 @@ This should be self-explanantory.
 [Pandoc](http://pandoc.org/installing.html)
 Used to transform Markdown into `.pdf`, `.docx`, and `.html` files.
 
----
-
-### Installation <a name = "installation"></a>
+## Installation <a name = "installation"></a>
 
 Decide where the core mdEditor files should live on your local drive (reference [About](#about) for more), then clone [mdEditor](https://github.com/killshot13/mdEditor.git) to that location.
 
@@ -94,9 +90,7 @@ _mdEditor_
 Installation is complete.
 Nice job!
 
----
-
-### Usage <a name = "usage"></a>
+## Usage <a name = "usage"></a>
 
 To test linting & formatting, click the `test.txt` file (in the `md` folder); it should open in the main editor window.
 
@@ -112,7 +106,9 @@ Workspace setup is now complete and mdEditor is ready to use.
 
 Happy markdown'ing! :)
 
-### References <a name = "references"></a>
+<a href="https://github.com/killshot13/mdEditor"><img align="left" width="605" height="395" src="https://github.com/killshot13/mdEditor/blob/main/images/markdown-to-docx.jpg" alt="DOCX file created with mdEditor"></a>
+
+## References <a name = "references"></a>
 
 _Credit is owed to [Dave Johnson](https://twitter.com/thisDaveJ) for inspiring me to create mdEditor after reading [this guide](https://thisdavej.com/build-an-amazing-markdown-editor-using-visual-studio-code-and-pandoc/)  he authored._
 
@@ -122,4 +118,7 @@ _Credit is owed to [Dave Johnson](https://twitter.com/thisDaveJ) for inspiring m
 
 [VS Code](https://code.visualstudio.com/) is free software released under the [MIT license](https://github.com/microsoft/vscode/blob/main/LICENSE.txt). The project's [source code](https://github.com/microsoft/vscode/blob/main/LICENSE.txt) is available on GitHub. Copyright 2021 [Microsoft](https://www.microsoft.com/en-us/)
 
+---
+
 All VS Code extensions, software programs, and digital content referenced and/or used in the documentation and/or installation guide of mdEditor is the respective intellectual property of the creators, developers, and owners thereof. All applicable copyrights and licenses remain in effect.
+
