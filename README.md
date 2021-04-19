@@ -106,9 +106,9 @@ Workspace setup is now complete and mdEditor is ready to use.
 
 Happy markdown'ing! :)
 
-<a href="https://github.com/killshot13/mdEditor"><img align="left" width="605" height="395" src="https://github.com/killshot13/mdEditor/blob/main/images/markdown-to-docx.jpg" alt="DOCX file created with mdEditor"></a>
-
 ## References <a name = "references"></a>
+
+<a href="https://github.com/killshot13/mdEditor"><img align="left" width="605" height="395" src="https://github.com/killshot13/mdEditor/blob/main/images/markdown-to-docx.jpg" alt="DOCX file created with mdEditor"></a>
 
 _Credit is owed to [Dave Johnson](https://twitter.com/thisDaveJ) for inspiring me to create mdEditor after reading [this guide](https://thisdavej.com/build-an-amazing-markdown-editor-using-visual-studio-code-and-pandoc/)  he authored._
 
@@ -118,7 +118,4 @@ _Credit is owed to [Dave Johnson](https://twitter.com/thisDaveJ) for inspiring m
 
 [VS Code](https://code.visualstudio.com/) is free software released under the [MIT license](https://github.com/microsoft/vscode/blob/main/LICENSE.txt). The project's [source code](https://github.com/microsoft/vscode/blob/main/LICENSE.txt) is available on GitHub. Copyright 2021 [Microsoft](https://www.microsoft.com/en-us/)
 
----
-
-All VS Code extensions, software programs, and digital content referenced and/or used in the documentation and/or installation guide of mdEditor is the respective intellectual property of the creators, developers, and owners thereof. All applicable copyrights and licenses remain in effect.
-
+**All VS Code extensions, software programs, and digital content referenced and/or used in the documentation and/or installation guide of mdEditor is the respective intellectual property of the creators, developers, and owners thereof. All applicable copyrights and licenses remain in effect.**
