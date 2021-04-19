@@ -118,4 +118,4 @@ _Credit is owed to [Dave Johnson](https://twitter.com/thisDaveJ) for inspiring m
 
 [VS Code](https://code.visualstudio.com/) is free software released under the [MIT license](https://github.com/microsoft/vscode/blob/main/LICENSE.txt). The project's [source code](https://github.com/microsoft/vscode/blob/main/LICENSE.txt) is available on GitHub. Copyright 2021 [Microsoft](https://www.microsoft.com/en-us/)
 
-**All VS Code extensions, software programs, and digital content referenced and/or used in the documentation and/or installation guide of mdEditor is the respective intellectual property of the creators, developers, and owners thereof. All applicable copyrights and licenses remain in effect.**
+All VSCode extensions, software programs, and digital content added and/or used in the documentation and/or installation guide of mdEditor is the respective intellectual property of the creators, developers, and owners thereof. All applicable copyrights and licenses remain in effect.
