@@ -26,10 +26,6 @@
 
 - Supports the creation of `.pdf`, `.docx`, and `.html` files, which can be exported and viewed with MS Word, Adobe Acrobat, or the browser.
 
-
-<a href="https://github.com/killshot13/mdEditor"><img align="left" width="480" height="275" src="https://github.com/killshot13/mdEditor/blob/main/images/markdown-to-html.jpg" alt="HTML file created with mdEditor" ></a>
-
-
 - Enforces syntax for any markdown flavor with a simple on/off option for every rule.
 
 - All `html` files are linked to a basic stylesheet during creation so they look natural if viewed with the browser.
