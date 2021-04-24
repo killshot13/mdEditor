@@ -5,7 +5,8 @@
 		}
 	],
 	"settings": {
-		"pandoc.htmlOptString": "-s -f gfm -t html5 --css=/styles/style.css",
+		"pandoc.htmlOptString": "-s -f gfm -t html5 --css=\\styles\\style.css",
+/** On Linux, use: "pandoc.htmlOptString": "-s -f gfm -t html5 --css=/styles/style.css", */
 		"editor.semanticTokenColorCustomizations": {},
 		"[markdown]": {
 			"editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
