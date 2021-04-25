@@ -1,8 +1,16 @@
 # mdEditor
 
+
+>**v3.1.0**
+
+## Awesome Markdown Editor/Workspace for VS Code
+
+---
+
 > **Awesome Markdown Editor/Workspace for VS Code**
 >
-> **v3.0.0**
+> **v3.1.0**
+
 
 ## Table of Contents
 
@@ -35,7 +43,7 @@
 
 mdEditor provides the configuration guidelines and creates the structure for an awesome VSCode Markdown editor. By creating a reusable `code-workspace`, the main portion of your IDE environment is protected from rule conflicts.
 
-Unless you work with Markdown on a daily basis, the editor is designed to be installed locally at the user level.Markdown files can be created in the editor workspace, and existing files imported as needed for easy linting.
+Unless you work with Markdown on a daily basis, the editor is designed to be installed locally at the user level. Markdown files can be created in the editor workspace, and existing files imported as needed for easy linting.
 
 mdEditor is an adaptation derived from the brainchild of [Dave Johnson](https://twitter.com/thisDaveJ), which he detailed a couple years ago in [an article](https://thisdavej.com/build-an-amazing-markdown-editor-using-visual-studio-code-and-pandoc/) on his blog.
 
@@ -47,13 +55,21 @@ mdEditor is an adaptation derived from the brainchild of [Dave Johnson](https://
 
 ## Prerequisites <a name = "prerequisites"></a>
 
-[Visual Studio Code](https://code.visualstudio.com/Download)
+#### [Visual Studio Code](https://code.visualstudio.com/Download)
+
 This should be self-explanantory.
 
-[Pandoc](http://pandoc.org/installing.html)
-Used to transform Markdown into `.pdf`, `.docx`, and `.html` files.
+#### [Pandoc](http://pandoc.org/installing.html)
 
-## Installation <a name = "installation"></a>
+
+This may require some guidance if you don't currently use Pandoc. I wrote a gist to help first-time users; here is [the link](https://gist.github.com/killshot13/5b379355d275e79a5cb1f03c841c7d53).
+
+### Installation <a name = "installation"></a>
+
+This may require some guidance if you don't currently use Pandoc. I wrote a gist to help first-time users; here is [the link](https://gist.github.com/killshot13/5b379355d275e79a5cb1f03c841c7d53).
+
+### Installation <a name = "installation"></a>
+
 
 Decide where the core mdEditor files should live on your local drive (reference [About](#about) for more), then clone [mdEditor](https://github.com/killshot13/mdEditor.git) to that location.
 
@@ -89,6 +105,8 @@ _mdEditor_
     |`README.md`
     |`LICENSE`
     \---
+
+**NOTE: On Linux you must uncomment the `pandoc.htmlOptString` in the `mdEditor.code-workspace` file. The current version, which uses Windows OS file separators, must be replaced with the Linux version; otherwise, the css styles will not be applied correctly.**
 
 Installation is complete.
 Nice job!
