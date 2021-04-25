@@ -1,12 +1,5 @@
 # mdEditor
 
-
->**v3.1.0**
-
-## Awesome Markdown Editor/Workspace for VS Code
-
----
-
 > **Awesome Markdown Editor/Workspace for VS Code**
 >
 > **v3.1.0**
@@ -61,15 +54,9 @@ This should be self-explanantory.
 
 #### [Pandoc](http://pandoc.org/installing.html)
 
-
 This may require some guidance if you don't currently use Pandoc. I wrote a gist to help first-time users; here is [the link](https://gist.github.com/killshot13/5b379355d275e79a5cb1f03c841c7d53).
 
 ### Installation <a name = "installation"></a>
-
-This may require some guidance if you don't currently use Pandoc. I wrote a gist to help first-time users; here is [the link](https://gist.github.com/killshot13/5b379355d275e79a5cb1f03c841c7d53).
-
-### Installation <a name = "installation"></a>
-
 
 Decide where the core mdEditor files should live on your local drive (reference [About](#about) for more), then clone [mdEditor](https://github.com/killshot13/mdEditor.git) to that location.
 
