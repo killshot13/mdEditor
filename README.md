@@ -110,14 +110,20 @@ Workspace setup is now complete and mdEditor is ready to use.
 
 Happy markdown'ing! :)
 
+[mdEditor](https://github.com/killshot13/mdEditor) is free software released under the [MIT license](https://github.com/killshot13/mdEditor/blob/main/LICENSE). Copyright 2020-2021 Michael Rehnert
+
 ### References <a name = "references"></a>
 
-_Credit is owed to [Dave Johnson](https://twitter.com/thisDaveJ) for inspiring me to create mdEditor after reading [this guide](https://thisdavej.com/build-an-amazing-markdown-editor-using-visual-studio-code-and-pandoc/)  he authored._
+_Extensive credit is owed to [Dave Johnson](https://twitter.com/thisDaveJ) for inspiring me to create mdEditor after reading [this guide](https://thisdavej.com/build-an-amazing-markdown-editor-using-visual-studio-code-and-pandoc/) he authored._
 
-[mdEditor](https://github.com/killshot13/mdEditor) is free software released under the [MIT license](https://github.com/killshot13/mdEditor/blob/main/LICENSE) Copyright 2020-2021 Michael Rehnert
+_Additional credit and appreciation is extended to the creators, contributors, and maintainers of the following open-source software projects._
+
+[markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) is free software released under the [MIT license](https://github.com/DavidAnson/vscode-markdownlint/blob/main/LICENSE). Copyright 2015-2021 David Anson
+
+[vscode-pandoc](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) is free software released via the VS Code marketplace. Copyright 2015-2021 Doug Finke
 
 [Pandoc](http://johnmacfarlane.net/) is free software released under the [GPL](http://www.gnu.org/copyleft/gpl.html). Copyright 2006–2021 [John MacFarlane](http://johnmacfarlane.net/).
 
 [VS Code](https://code.visualstudio.com/) is free software released under the [MIT license](https://github.com/microsoft/vscode/blob/main/LICENSE.txt). The project's [source code](https://github.com/microsoft/vscode/blob/main/LICENSE.txt) is available on GitHub. Copyright 2021 [Microsoft](https://www.microsoft.com/en-us/)
 
-All VS Code extensions, software programs, and digital content referenced and/or used in the documentation and/or installation guide of mdEditor is the respective intellectual property of the creators, developers, and owners thereof. All applicable copyrights and licenses remain in effect.
+All software programs, extensions, plugins, and digital content referenced and/or used in the documentation and/or installation guide of mdEditor is the respective intellectual property of the creators, developers, and owners thereof and is entitled to the protections granted under U.S. Copyright law.
