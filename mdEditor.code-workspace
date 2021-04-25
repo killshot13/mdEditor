@@ -5,8 +5,23 @@
 		}
 	],
 	"settings": {
-		"pandoc.htmlOptString": "-s -f gfm -t html5 --css=\\styles\\style.css",
-/** On Linux, use: "pandoc.htmlOptString": "-s -f gfm -t html5 --css=/styles/style.css", */
+		//-------- Pandoc Option Configuration --------
+
+		// pandoc .docx output option template --
+		// No addtional configuration necessary unless so desired.
+		"pandoc.docxOptString": "",
+
+		// pandoc .html output option template --
+
+		// On Linux, be sure to substitute this version of `htmlOptString` to avoid errors: "pandoc.htmlOptString": "-s -f gfm -t html5 --css=\\styles\\style.css",
+		"pandoc.htmlOptString": "-s -f gfm -t html5 --css=/styles/style.css",
+
+		// pandoc .pdf output option template --
+
+		// On Linux, be sure to substitute this version of `pdfOptString` to avoid errors: "pandoc.pdfOptString": "-s -f gfm -t latex",
+		"pandoc.pdfOptString": "-s -f gfm -t pdf",
+		// NOTE: Other valid values are pdflatex, lualatex, xelatex, latexmk, tectonic, wkhtmltopdf, weasyprint, prince, context, and pdfroff.
+
 		"editor.semanticTokenColorCustomizations": {},
 		"[markdown]": {
 			"editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
