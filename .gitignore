@@ -13,4 +13,4 @@
 .nfs*
 
 # .code-workspace files provide localized, granular control over the mdEditor config
-.code-workspace*
+'./mdEditor.code-workspace'
