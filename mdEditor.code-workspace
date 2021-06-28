@@ -18,9 +18,10 @@
 		"pandoc.htmlOptString": "-s -f gfm -t html5 --css=\\styles\\style.css",
 
 		// pandoc .pdf output option template --
-		// On Linux, be sure to substitute this version of `pdfOptString` to avoid errors: "pandoc.pdfOptString": "-s -f gfm -t latex",
+		// On Linux, be sure to substitute this version of `pdfOptString` to avoid errors:
+		//"pandoc.pdfOptString": "-s -f gfm -t pdf",
 
-		"pandoc.pdfOptString": "-s -f gfm -t pdf",
+		"pandoc.pdfOptString": "-s -f gfm -t latex",
 		// NOTE: Other valid values are pdflatex, lualatex, xelatex, latexmk, tectonic, wkhtmltopdf, weasyprint, prince, context, and pdfroff.
 
 		"editor.semanticTokenColorCustomizations": {},
