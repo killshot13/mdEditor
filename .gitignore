@@ -14,3 +14,6 @@
 
 # .code-workspace files provide localized, granular control over the mdEditor config
 './mdEditor.code-workspace'
+
+# local files cached by the .devcontainer.
+.dccache

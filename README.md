@@ -4,7 +4,6 @@
 >
 > **v3.1.0**
 
-
 ## Table of Contents
 
 - [About](#about)
@@ -48,40 +47,45 @@ mdEditor is an adaptation derived from the brainchild of [Dave Johnson](https://
 
 ## Prerequisites <a name = "prerequisites"></a>
 
-#### [Visual Studio Code](https://code.visualstudio.com/Download)
-
+**[Visual Studio Code](https://code.visualstudio.com/Download)**
 This should be self-explanantory.
 
-#### [Pandoc](http://pandoc.org/installing.html)
-
+**[Pandoc](http://pandoc.org/installing.html)**
 This may require some guidance if you don't currently use Pandoc. I wrote a gist to help first-time users; here is [the link](https://gist.github.com/killshot13/5b379355d275e79a5cb1f03c841c7d53).
 
 ### Installation <a name = "installation"></a>
 
 Decide where the core mdEditor files should live on your local drive (reference [About](#about) for more), then clone [mdEditor](https://github.com/killshot13/mdEditor.git) to that location.
 
+Now, open mdEditor at the base directory using VSCode. Your IDE will auto-discover the `.code-workspace` file and prompt you to reopen the folder as a workspace. Confirm this choice, unless you wish to use a different configuration.
+
+If so, there is a blank `settings.json` in the `.vscode` folder for you. Otherwise, you should disregard said folder completely.
+
 We still need to pass the linting rulebook and Pandoc style guide to the editor workspace.
 
-Let's install these VSCode extensions, leaving the settings at their default values.
+You should have noticed a prompt once you entered the workspace about installing the recommended extensions. If you have not done so already, go ahead and approve the install.
+
+If for some reason you did not receive a prompt or have already closed the notification tab, not to worry. Just install these VSCode extensions, leaving the settings at their default values.
 
 --> [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
 --> [vscode-pandoc](https://marketplace.visualstudio.com/items?itemName=DougFinke.vscode-pandoc)
 
-Now, open mdEditor at the base directory using VSCode. Your IDE will auto-discover the `.code-workspace` file and prompt you to reopen the folder as a workspace. Confirm this choice, unless you wish to use a different configuration.
-
-If so, there is a blank `settings.json` in the `.vscode` folder for you. Otherwise, you should disregard said folder completely.
-
-Using this diagram, verify the file structure of your local mdEditor is free from any discrepancies.
+Now, using this diagram, verify the file structure of your local mdEditor is free from any discrepancies.
 
 **Tree View**
 _mdEditor_
-\+---.vscode
+\+---.github-templates (+6)
+    |
+    +---.vscode
     |       `settings.json`
+    |       `extensions.json`
+    |
+    +---images
+    |       `mdEditor.gif` (+3)
     |
     +---md
-    |       `project1.md`
-    |       `project2.md`
+    |       `test.txt`
     |
     +---styles
     |       `style.css`
@@ -89,8 +93,7 @@ _mdEditor_
     |
     |`.markdownlint.json`
     |`mdEditor.code-workspace`
-    |`README.md`
-    |`LICENSE`
+    |`README.md` (+2)
     \---
 
 **NOTE: On Linux you must uncomment the `pandoc.htmlOptString` in the `mdEditor.code-workspace` file. The current version, which uses Windows OS file separators, must be replaced with the Linux version; otherwise, the css styles will not be applied correctly.**
