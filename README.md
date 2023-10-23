@@ -2,7 +2,7 @@
 
 > **Awesome Markdown Editor/Workspace for VS Code**
 >
-> **v3.1.0**
+> **v2.0.0**
 
 ## Table of Contents
 
@@ -23,7 +23,7 @@
 
 - Auto-checks for errors/problems and generates a detailed output for any broken rules.
 
-- Lints and runs autofix on save which will correct/reformat most common errors.
+- Lints and runs auto-fix on save which will correct/reformat most common errors.
 
 - Supports the creation of `.pdf`, `.docx`, and `.html` files, which can be exported and viewed with MS Word, Adobe Acrobat, or the browser.
 
@@ -48,7 +48,7 @@ mdEditor is an adaptation derived from the brainchild of [Dave Johnson](https://
 ## Prerequisites <a name = "prerequisites"></a>
 
 **[Visual Studio Code](https://code.visualstudio.com/Download)**
-This should be self-explanantory.
+This should be self-explanatory.
 
 **[Pandoc](http://pandoc.org/installing.html)**
 This may require some guidance if you don't currently use Pandoc. I wrote a gist to help first-time users; here is [the link](https://gist.github.com/killshot13/5b379355d275e79a5cb1f03c841c7d53).
@@ -61,7 +61,7 @@ Now, open mdEditor at the base directory using VSCode. Your IDE will auto-discov
 
 If so, there is a blank `settings.json` in the `.vscode` folder for you. Otherwise, you should disregard said folder completely.
 
-We still need to pass the linting rulebook and Pandoc style guide to the editor workspace.
+We still need to pass the linting rules and Pandoc style guide to the editor workspace.
 
 You should have noticed a prompt once you entered the workspace about installing the recommended extensions. If you have not done so already, go ahead and approve the install.
 
@@ -69,7 +69,7 @@ If for some reason you did not receive a prompt or have already closed the notif
 
 --> [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
---> [vscode-pandoc](https://marketplace.visualstudio.com/items?itemName=DougFinke.vscode-pandoc)
+--> [vscode-pandoc](https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vscode-pandoc)
 
 Now, using this diagram, verify the file structure of your local mdEditor is free from any discrepancies.
 
@@ -113,7 +113,7 @@ To test the filetype output, enter the key combination `CTRL + K`, then press `P
 
 Workspace setup is now complete and mdEditor is ready to use.
 
->NOTE: The `syntax.md` file in the `styles` folder contains a detailed description of the linting rules available within the editor workspace. Any rule can be toggled on/off by editing the `.markdownlint.json` file using this syntax. `"ruleID" : bool`
+>NOTE: The `syntax.md` file in the `styles` folder contains a detailed description of the linting rules available within the editor workspace. Most linting rules can be simply toggled on/off by editing the `.markdownlint.json` file using this syntax. `MDXXX : bool`
 
 Happy markdown'ing! :)
 
@@ -121,16 +121,16 @@ Happy markdown'ing! :)
 
 ## References <a name = "references"></a>
 
-_Extensive credit is owed to [Dave Johnson](https://twitter.com/thisDaveJ) for inspiring me to create mdEditor after reading [this guide](https://thisdavej.com/build-an-amazing-markdown-editor-using-visual-studio-code-and-pandoc/) he authored._
+_Extensive credit is owed to [Dave Johnson](https://twitter.com/thisDaveJ) for inspiring me to create mdEditor after reading [this guide](https://thisdavej.com/build-an-amazing-markdown-editor-using-visual-studio-code-and-pandoc) he authored._
 
 _Additional credit and appreciation is extended to the creators, contributors, and maintainers of the following open-source software projects._
 
-[markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) is free software released under the [MIT license](https://github.com/DavidAnson/vscode-markdownlint/blob/main/LICENSE). Copyright 2015-2021 David Anson
+[markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) is free software released under the [MIT license](https://marketplace.visualstudio.com/items/DavidAnson.vscode-markdownlint/license). Copyright (c) David Anson
 
-[vscode-pandoc](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) is free software released via the VS Code marketplace. Copyright 2015-2021 Doug Finke
+[vscode-pandoc](https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vscode-pandoc) is free software released under the [MIT license](https://marketplace.visualstudio.com/items/ChrisChinchilla.vscode-pandoc/license). Copyright (c) 2023 Chris Ward / aka Chris Chinchilla
 
-[Pandoc](http://johnmacfarlane.net/) is free software released under the [GPL](http://www.gnu.org/copyleft/gpl.html). Copyright 2006–2021 [John MacFarlane](http://johnmacfarlane.net/).
+[Pandoc](https://pandoc.org) is free software released under the [GPL](https://www.gnu.org/licenses/gpl-3.0.html). Copyright 2006–2022 [John MacFarlane](https://johnmacfarlane.net).
 
-[VS Code](https://code.visualstudio.com/) is free software released under the [MIT license](https://github.com/microsoft/vscode/blob/main/LICENSE.txt). The project's [source code](https://github.com/microsoft/vscode/blob/main/LICENSE.txt) is available on GitHub. Copyright 2021 [Microsoft](https://www.microsoft.com/en-us/)
+[VS Code](https://code.visualstudio.com/) is free software released under the [MIT license](https://github.com/microsoft/vscode/blob/main/LICENSE.txt). The project's [source code](https://github.com/microsoft/vscode) is available on GitHub. Copyright (c) 2015 - present [Microsoft Corporation](https://www.microsoft.com)
 
 All software programs, extensions, plugins, and digital content referenced and/or used in the documentation and/or installation guide of mdEditor is the respective intellectual property of the creators, developers, and owners thereof and is entitled to the protections granted under U.S. Copyright law.

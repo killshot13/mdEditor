@@ -5,75 +5,41 @@
 		}
 	],
 	"settings": {
+		"[markdown]": {
+			"diffEditor.ignoreTrimWhitespace": false,
+			"editor.codeActionsOnSave": {
+				"source.fixAll.markdownlint": true
+			},
+			"editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+			"editor.formatOnPaste": false,
+			"editor.formatOnSave": true,
+			"editor.insertSpaces": false,
+			"editor.quickSuggestions": {
+				"comments": "off",
+				"other": "off",
+				"strings": "off"
+			},
+			"editor.renderWhitespace": "all",
+			"editor.semanticHighlighting.enabled": true,
+			"editor.unicodeHighlight.ambiguousCharacters": false,
+			"editor.unicodeHighlight.invisibleCharacters": false,
+			"editor.wordWrap": "on",
+			"editor.wrappingStrategy": "simple"
+		},
+		// NOTE: Other valid values are pdflatex, lualatex, xelatex, latexmk, tectonic, wkhtmltopdf, weasyprint, prince, context, and pdfroff.
+		"markdown.updateLinksOnFileMove.enabled": "prompt",
+		"markdown.validate.enabled": false,
 		//-------- Pandoc Option Configuration --------
-
 		// pandoc .docx output option template --
-		// No addtional configuration necessary unless so desired.
-
+		// No additional configuration necessary unless so desired.
 		"pandoc.docxOptString": "",
-
 		// pandoc .html output option template --
 		// On Linux, be sure to substitute this version of `htmlOptString` to avoid errors: "pandoc.htmlOptString": "-s -f gfm -t html5 --css=/styles/style.css",
-
 		"pandoc.htmlOptString": "-s -f gfm -t html5 --css=\\styles\\style.css",
-
 		// pandoc .pdf output option template --
 		// On Linux, be sure to substitute this version of `pdfOptString` to avoid errors:
 		//"pandoc.pdfOptString": "-s -f gfm -t pdf",
-
-		"pandoc.pdfOptString": "-s -f gfm -t latex",
+		"pandoc.pdfOptString": "-s -f gfm -t latex"
 		// NOTE: Other valid values are pdflatex, lualatex, xelatex, latexmk, tectonic, wkhtmltopdf, weasyprint, prince, context, and pdfroff.
-
-		"editor.semanticTokenColorCustomizations": {},
-		"[markdown]": {
-			"editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
-			"editor.formatOnSave": true,
-			"editor.codeActionsOnSave": {
-				"source.organizeImports": true,
-				"source.fixAll": true
-			},
-			"editor.wordWrap": "on",
-			"editor.renderWhitespace": "all",
-			"editor.insertSpaces": false,
-			"editor.wrappingStrategy": "simple",
-			"editor.quickSuggestions": false
-		}
 	}
 }
-
-/**
-		"logViewer.watch": [
-			{
-				"title": "initexmf",
-				"pattern": "/mnt/c/ProgramData/MiKTeX/miktex/log/initexmf_admin.log"
-			},
-			{
-				"title": "miktex-console",
-				"pattern": "/mnt/c/ProgramData/MiKTeX/miktex/log/miktex-console_admin.log"
-			},
-			{
-				"title": "miktex-fc-cache",
-				"pattern": "/mnt/c/ProgramData/MiKTeX/miktex/log/miktex-fc-cache_admin.log"
-			},
-			{
-				"title": "miktex-maketfm",
-				"pattern": "/mnt/c/ProgramData/MiKTeX/miktex/log/miktex-maketfm_admin.log"
-			},
-			{
-				"title": "miktex-mf",
-				"pattern": "/mnt/c/ProgramData/MiKTeX/miktex/log/miktex-mf_admin.log"
-			},
-			{
-				"title": "miktex-pdftex",
-				"pattern": "/mnt/c/ProgramData/MiKTeX/miktex/log/miktex-pdftex_admin.log"
-			},
-			{
-				"title": "mkfntmap",
-				"pattern": "/mnt/c/ProgramData/MiKTeX/miktex/log/mkfntmap_admin.log"
-			},
-			{
-				"title": "mpmcli",
-				"pattern": "/mnt/c/ProgramData/MiKTeX/miktex/log/mpmcli_admin.log"
-			}
-		],
-		*/

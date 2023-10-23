@@ -1,3 +1,3 @@
 {
-	"recommendations": ["davidanson.vscode-markdownlint", "DougFinke.vscode-pandoc"]
+	"recommendations": ["davidanson.vscode-markdownlint", "chrischinchilla.vscode-pandoc"]
 }
