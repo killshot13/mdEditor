@@ -71,35 +71,41 @@ If for some reason you did not receive a prompt or have already closed the notif
 
 --> [vscode-pandoc](https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vscode-pandoc)
 
+### Tree View
+
 Now, using this diagram, verify the file structure of your local mdEditor is free from any discrepancies.
 
-**Tree View**
-_mdEditor_
-\+---.github-templates (+6)
-    |
-    +---.vscode
-    |       `settings.json`
-    |       `extensions.json`
-    |
-    +---images
-    |       `mdEditor.gif` (+3)
-    |
-    +---md
-    |       `test.txt`
-    |
-    +---styles
-    |       `style.css`
-    |       `syntax.md`
-    |
-    |`.markdownlint.json`
-    |`mdEditor.code-workspace`
-    |`README.md` (+2)
-    \---
+##### _mdEditor/_
 
-**NOTE: On Linux you must uncomment the `pandoc.htmlOptString` in the `mdEditor.code-workspace` file. The current version, which uses Windows OS file separators, must be replaced with the Linux version; otherwise, the css styles will not be applied correctly.**
+ - [.github](./.github)
+   - [ISSUE_TEMPLATE](./.github/ISSUE_TEMPLATE)
+	 	- [bug_report.md](./.github/ISSUE_TEMPLATE/bug_report.md)
+		- [custom.md](./.github/ISSUE_TEMPLATE/custom.md)
+		- [feature_request.md](./.github/ISSUE_TEMPLATE/feature_request.md)
+	- [CONTRIBUTING.md](./.github/CONTRIBUTING.md)
+	- [ISSUE_TEMPLATE.md](./.github/ISSUE_TEMPLATE.md)
+	- [PULL_REQUEST_TEMPLATE.md](./.github/PULL_REQUEST_TEMPLATE.md)
+ - [.vscode](./.vscode)
+	 - [extensions.json](./.vscode/extensions.json)
+	 - [settings.json](./.vscode/settings.json)
+ - [images](./images)
+   - [markdown-to-docx.jpg](./images/markdown-to-docx.jpg)
+   - [markdown-to-html.jpg](./images/markdown-to-html.jpg)
+   - [markdown-to-pdf.jpg](./images/markdown-to-pdf.jpg)
+   - [mdEditor.gif](./images/mdEditor.gif)
+ - [CHANGELOG.md](./CHANGELOG.md)
+ - [LICENSE](./LICENSE)
+ - [md](./md)
+   - [test.txt](./md/test.txt)
+ - [mdEditor.code-workspace](./mdEditor.code-workspace)
+ - [styles](./styles)
+   - [style.css](./styles/style.css)
+   - [rules.md](./styles/rules.md)
+ - [README.md](./README.md)
 
-Installation is complete.
-Nice job!
+If the file structure matches, installation is complete. Well done!
+
+> **NOTE: If using Linux you must uncomment the `pandoc.htmlOptString` in the `mdEditor.code-workspace` file. The current version, which uses Windows OS file separators, must be replaced with the Linux version; otherwise, the css styles will not be applied correctly.**
 
 ## Usage <a name = "usage"></a>
 
@@ -113,7 +119,13 @@ To test the filetype output, enter the key combination `CTRL + K`, then press `P
 
 Workspace setup is now complete and mdEditor is ready to use.
 
->NOTE: The `syntax.md` file in the `styles` folder contains a detailed description of the linting rules available within the editor workspace. Most linting rules can be simply toggled on/off by editing the `.markdownlint.json` file using this syntax. `MDXXX : bool`
+>NOTE: The `syntax.md` file in the `styles` folder contains a detailed description of the linting rules available within the editor workspace. Most linting rules can be simply toggled on/off by editing the `.markdownlint.json` file using this syntax.
+
+```json
+{
+	"MD-XXX": Boolean
+}
+```
 
 Happy markdown'ing! :)
 

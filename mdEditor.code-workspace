@@ -29,17 +29,25 @@
 		// NOTE: Other valid values are pdflatex, lualatex, xelatex, latexmk, tectonic, wkhtmltopdf, weasyprint, prince, context, and pdfroff.
 		"markdown.updateLinksOnFileMove.enabled": "prompt",
 		"markdown.validate.enabled": false,
+		
 		//-------- Pandoc Option Configuration --------
+
 		// pandoc .docx output option template --
 		// No additional configuration necessary unless so desired.
+
 		"pandoc.docxOptString": "",
+
 		// pandoc .html output option template --
 		// On Linux, be sure to substitute this version of `htmlOptString` to avoid errors: "pandoc.htmlOptString": "-s -f gfm -t html5 --css=/styles/style.css",
+
 		"pandoc.htmlOptString": "-s -f gfm -t html5 --css=\\styles\\style.css",
+
 		// pandoc .pdf output option template --
 		// On Linux, be sure to substitute this version of `pdfOptString` to avoid errors:
 		//"pandoc.pdfOptString": "-s -f gfm -t pdf",
-		"pandoc.pdfOptString": "-s -f gfm -t latex"
+
+		"pandoc.pdfOptString": "-s -f gfm -t latex",
 		// NOTE: Other valid values are pdflatex, lualatex, xelatex, latexmk, tectonic, wkhtmltopdf, weasyprint, prince, context, and pdfroff.
+
 	}
 }
