@@ -1,0 +1,5 @@
+.github/**/*.md
+.vscode/**/*
+styles/**/*.md
+LICENSE
+README.md
